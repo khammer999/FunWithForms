@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 using FunWithForms.Models;
 using FunWithForms.Repositories;
 using Microsoft.AspNetCore.Builder;
-using Microsoft.AspNetCore.Hosting;
+using Microsoft.AspNetCore.Hosting;   
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.AspNetCore.Mvc;
@@ -16,6 +16,7 @@ namespace FunWithForms
 {
     public class Startup
     {
+        // This is a comment.
         public Startup(IConfiguration configuration)
         {
             Configuration = configuration;
